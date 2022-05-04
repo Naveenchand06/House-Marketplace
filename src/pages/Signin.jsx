@@ -35,7 +35,7 @@ function Signin() {
         password
       );
       if (userCredential.user) {
-        navigate("/");
+        navigate("/profile");
       }
     } catch (e) {
       console.log(e);
